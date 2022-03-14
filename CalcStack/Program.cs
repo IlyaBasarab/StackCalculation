@@ -10,7 +10,7 @@ namespace CalcStack
     {
         static void Main(string[] args)
         {
-            //string[] data = { "10","2","+","2","*"};
+            //string data2 = "10 * 20 + 100";
             string data2 = "(20 + 30) * 100 + 50";
 
             Expression expression = new Expression();
