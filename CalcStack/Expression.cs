@@ -32,14 +32,14 @@ namespace CalcStack
         {
             Stack<string>stack= new Stack<string>();
              string[] data= Splitter(dataInStr);
-
+            string operation = "";
             for (int i = 0; i < data.Length; i++)
             {
                 string[] data2= Splitter(data[i]);
-                string operation = null;
+                
                 for (int j = 0; j < data2.Length; j++)
                 {
-
+                    
                     string token = data2[j];
                     
 
